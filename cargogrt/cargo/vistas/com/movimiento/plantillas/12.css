@@ -1,0 +1,131 @@
+body { 
+    font-size: 8.5pt;
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraSerieNumero{
+    position: absolute; 
+    top: 4cm;
+    left: 14.6cm;
+}
+
+.cabeceraFechas{
+    position: absolute;
+    left: 3.4cm;
+    top:6.4cm;
+}
+
+.fechasCelda{
+    height: 0.5cm; 
+    vertical-align:middle;
+}
+
+.cabeceraUnidadTransporte
+{
+    position: absolute;
+    top: 9.65cm;
+    left: 4.3cm;
+}
+
+.cabeceraEmpresaTranporte
+{
+    position: absolute;
+    top: 10.1cm;
+    left: 10.5cm;
+}
+
+.empresaTranporteCelda
+{
+    height: 0.52cm; 
+    vertical-align:middle;
+}
+
+.anchoEmpresaTranporte{
+    width:5.5cm;
+    text-align: left;
+    /*padding-left: 0.3cm;*/
+}
+
+.part-detalle {
+    position: absolute;
+    top: 11.99cm;
+    left: 1cm;
+}
+
+.detalleRow{
+    height: 0.9cm; 
+    vertical-align:middle;
+}
+
+.detalleRowCodigo
+{
+    width: 2.0cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.3cm;
+    width: 9.9cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowCantidad{
+    padding-right: 0.4cm;
+    width: 2.3cm;
+    text-align: right;
+    display: table-cell;
+}
+
+
+.detalleRowUM{
+    padding-left: 0.2cm;
+    width: 2.4cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPesoTotal{
+    padding-right: 0cm;
+    width: 2cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.cabeceraComprobantePagoDocumento{
+    position: absolute;
+    top: 30.8cm;
+    left: 5.6cm;
+}
+
+.comprobantePagoCelda
+{
+    height: 0.4cm; 
+    vertical-align:middle;
+}
+
+.anchoComprobantePagoDocumento{
+    width: 12.5cm;
+    text-align: left;
+    padding-left: 0.3cm;
+}
+
+.cabeceraMotivoTraslado{
+    position: absolute;
+    left: 1.2cm;
+    top:31.4cm;
+}
+
+.motivoTrasladoCelda{
+    height: 0.5cm;
+    vertical-align:middle;
+}

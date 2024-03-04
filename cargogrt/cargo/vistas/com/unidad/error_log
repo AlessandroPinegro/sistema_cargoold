@@ -1,0 +1,5 @@
+[03-Oct-2018 19:50:28 America/New_York] PHP Notice:  Undefined index: id_usuario in /home/imaginatec/01_SGI/bhdt.imaginatecperu.com/vistas/com/unidad/unidad_form.php on line 49
+[18-Nov-2019 19:05:35 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/unidad/equivalencia_listar.php on line 45
+[18-Nov-2019 19:05:35 America/New_York] PHP Notice:  Undefined variable: id in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/unidad/equivalencia_listar.php on line 46
+[17-Dec-2019 10:03:26 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/unidad/equivalencia_listar.php on line 45
+[17-Dec-2019 10:03:26 America/New_York] PHP Notice:  Undefined variable: id in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/unidad/equivalencia_listar.php on line 46

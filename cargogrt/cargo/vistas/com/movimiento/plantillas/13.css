@@ -1,0 +1,95 @@
+
+body { 
+    font-size: 7pt;
+    font-family: 'Arial';
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    top: 1.34cm;
+    left: 14.84cm;
+}
+
+.cabeceraDatos{
+    position: absolute;
+    top: 1.40cm;
+    left: 2.47cm;
+}
+
+.datosCelda{
+    height: 0.28cm;
+}
+
+.cabeceraPuntos
+{
+    position: absolute;
+    top: 1.85cm;
+    left: 14.65cm;
+}
+
+.puntosCelda{
+    height: 0.39cm;
+}
+
+.cabeceraTransportista
+{
+    position: absolute;
+    top: 3.06cm;
+    left: 1.62cm;
+}
+
+.trasnportistaCelda
+{
+    padding-left: 0.19cm;
+    height: 0.56cm;
+}
+
+.part-detalle {
+    position: absolute;
+    top: 3.77cm;
+    left: 1.62cm;
+}
+
+.detalleRow{
+    height: 0.28cm;
+}
+
+.detalleRowCodigo
+{
+    width: 2.19cm;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.30cm;
+    width: 7.80cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowCantidad{
+    padding-right: 0.30cm;
+    width: 2.17cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowUM{
+    /*padding-right: 0.30cm;*/
+    /*width: 1.89cm;*/
+    padding-left: 0.95cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowPesoTotal{
+    display: table-cell;
+}
+

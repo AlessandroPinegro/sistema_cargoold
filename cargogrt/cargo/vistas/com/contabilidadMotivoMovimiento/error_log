@@ -1,0 +1,3 @@
+[24-Oct-2019 10:45:11 America/New_York] PHP Notice:  Undefined index: id in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/contabilidadMotivoMovimiento/motivo_movimiento_form.php on line 3
+[24-Oct-2019 10:45:11 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/contabilidadMotivoMovimiento/motivo_movimiento_form.php on line 152
+[24-Oct-2019 10:45:11 America/New_York] PHP Notice:  Undefined variable: id in /home/xbkohbsw/01SGI/bhdt.imaginatechnologies.com/vistas/com/contabilidadMotivoMovimiento/motivo_movimiento_form.php on line 153

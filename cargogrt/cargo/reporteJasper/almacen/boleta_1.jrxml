@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="425" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="0de428af-2099-4992-a27e-69167a39db48">
+	<property name="ireport.zoom" value="1.3310000000000008"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="serie_numero" class="java.lang.String"/>
+	<parameter name="nombre" class="java.lang.String"/>
+	<parameter name="direccion" class="java.lang.String"/>
+	<parameter name="total" class="java.lang.Double"/>
+	<parameter name="vin_movimiento_id" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[2270]]></defaultValueExpression>
+	</parameter>
+	<parameter name="documento" class="java.lang.String"/>
+	<parameter name="total_letras" class="java.lang.String"/>
+	<parameter name="fecha_pie" class="java.lang.String"/>
+	<parameter name="fecha_dia" class="java.lang.String"/>
+	<parameter name="fecha_mes" class="java.lang.String"/>
+	<parameter name="fecha_anio" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[call sp_movimiento_bien_obtenerXMovimiento($P{vin_movimiento_id})]]>
+	</queryString>
+	<field name="cantidad" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bien_descripcion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="valor_monetario" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="unidad_medida_descripcion" class="java.lang.String"/>
+	<field name="organizador_descripcion" class="java.lang.String"/>
+	<field name="simbolo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bien_codigo" class="java.lang.String"/>
+	<field name="sub_total" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="118">
+			<textField>
+				<reportElement x="60" y="27" width="359" height="17" uuid="aefc3730-6f2d-4e28-b0da-b535eb924a88"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="43" width="425" height="17" uuid="9775d570-71b4-44a7-b629-44b645dea634"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{direccion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="443" y="4" width="100" height="18" uuid="de41faf3-e402-4eab-9897-dbf480158d97"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{serie_numero}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="59" width="100" height="17" uuid="8c57efe2-8ed5-4b47-ab93-e8f3d5abda4f"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{documento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="343" y="76" width="31" height="20" uuid="1fbb7fb7-fb12-431b-981b-c7c6aefabdf7"/>
+				<textElement>
+					<font fontName="SansSerif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fecha_dia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="76" width="128" height="20" uuid="8f16267e-dae1-4a11-997f-30a2b625f10c"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fecha_mes}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="502" y="76" width="41" height="20" uuid="bfcca00b-79e3-4a80-aa58-3441a7aafd54"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fecha_anio}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<textField pattern="###0">
+				<reportElement x="18" y="0" width="30" height="17" uuid="a7ab68ae-76ae-4899-9909-164e0cc993e4"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="124" y="0" width="285" height="17" uuid="292d573d-c9e1-4971-a171-4ed22bba3d46"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bien_descripcion}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="409" y="0" width="76" height="17" uuid="c0dd2f01-b18c-478b-af46-3a3f47122894"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valor_monetario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="0" width="64" height="17" uuid="202614b8-29ab-4938-97e3-7989d789c293"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{simbolo}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="485" y="0" width="82" height="17" uuid="718fb1e8-f0e5-4575-8953-e78c2148b390"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sub_total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="67">
+			<textField pattern="#,##0.00">
+				<reportElement x="485" y="37" width="82" height="16" uuid="0bb2db16-6363-4fb4-8c11-6fb4298fd717"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="18" y="13" width="425" height="15" uuid="b236e81e-bcef-4252-b689-3ea36939fed0"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{total_letras}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="37" width="100" height="16" uuid="85a6336a-eb1d-4298-bd0a-653d09011e4f"/>
+				<textElement>
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fecha_pie}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+</jasperReport>

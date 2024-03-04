@@ -1,0 +1,250 @@
+body { 
+    font-size: 8pt;
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraSerieNumero{
+    position: absolute; 
+    top: 4.4cm;
+    left: 12.6cm;
+}
+
+/*.cabeceraFechas{
+    position: absolute;
+    left: 1.0cm;
+    top:2.413cm;
+}
+
+.fechasCelda{
+    height: 0.253cm; 
+    vertical-align:middle;
+}
+
+.anchoFechas{
+    width: 1.6cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.espacioEntreFechas{
+    width: 1cm;
+    display: table-cell;
+}*/
+
+.cabeceraPuntosPartida
+{
+    position: absolute;
+    top: 6cm;
+    left: -0.5cm;
+}
+
+.puntosCelda{
+    height: 0.45cm; 
+    vertical-align:middle;
+}
+
+.anchoPuntos{
+    width: 1.5cm;
+    text-align: left;
+    padding-left: 0cm;
+    display: table-cell;
+    font-size: 6pt;
+    letter-spacing: 0.02cm;
+}
+
+.espacioEntrePuntos{
+    width: 0.5cm;
+    display: table-cell;
+}
+
+.cabeceraPuntosLlegada
+{
+    position: absolute;
+    top: 7.1cm;
+    left: -0.5cm;
+}
+
+.cabeceraDestinatario{
+    position: absolute;
+    top: 6.6cm;
+    left: 9cm;
+}
+
+.anchoDestinatario{
+    width: 7.8cm;
+    text-align: left;
+    padding-left: 0cm;
+}
+
+.destinatarioCelda
+{
+    height: 0.7cm; 
+    vertical-align:middle;
+}
+
+.cabeceraUnidadTransporte{
+    position: absolute;
+    top: 8.8cm;
+    left: 1.6cm;
+}
+
+.anchoUnidadTransporte{
+    width: 5.3cm;
+    text-align: left;
+    padding-left: 0cm;
+}
+
+.unidadTransporteCelda
+{
+    height: 0.6cm; 
+    vertical-align:middle;
+}
+
+.cabeceraEmpresaTranporte
+{
+    position: absolute;
+    top: 8.6cm;
+    left: 8.2cm;
+}
+
+.empresaTranporteCelda
+{
+    height: 0.6cm; 
+    vertical-align:middle;
+}
+
+.anchoEmpresaTranporte{
+    width: 8.8cm;
+    text-align: left;
+    padding-left: 0cm;
+}
+
+.cabeceraComprobantePago{
+    position: absolute;
+    top: 9.9cm;
+    left: 8.5cm;
+}
+
+.comprobantePagoCelda
+{
+    height: 0.8cm; 
+    vertical-align:middle;
+}
+
+.anchoComprabantePago{
+    width: 8.8cm;
+    text-align: center;
+    /*display: table-cell;*/
+}
+
+.part-detalle {
+    position: absolute;
+    top: 11.5cm;
+    left: -1.5cm;
+}
+
+.detalleRow{
+    height: 0.8cm; 
+    vertical-align:middle;
+}
+
+.detalleRowItem
+{
+    padding-left: 1.3cm;
+    width: 1.2cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowCantidad{
+    padding-right: 0.2cm;
+    width: 1.8cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowUM{
+    width: 1cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowCodigo
+{
+    width: 1.8cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0cm;
+    width: 7.5cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPrecioUnitario{
+    padding-right: 0cm;
+    width: 2cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowPrecioTotal{
+    padding-right: 0cm;
+    width: 2.5cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.cabeceraMotivoTraslado{
+    position: absolute;
+    left: 0cm;
+    top:26.5cm;
+}
+
+.motivoTrasladoCelda{
+    height: 0.4cm;
+    vertical-align:middle;
+}
+
+.cabeceraMotivoTraslado2{
+    position: absolute;
+    left: 2.5cm;
+    top:26.5cm;
+}
+
+.motivoTrasladoCelda2{
+    height: 0.6cm;
+    vertical-align:middle;
+}
+
+.cabeceraMotivoTraslado3{
+    position: absolute;
+    left: 5.5cm;
+    top: 26.5cm;
+}
+
+.motivoTrasladoCelda3{
+    height: 0.4cm;
+    vertical-align:middle;
+}
+
+.cabeceraMotivoTraslado4{
+    position: absolute;
+    left: 9cm;
+    top:26.5cm;
+}
+
+.motivoTrasladoCelda4{
+    height: 0.4cm;
+    vertical-align:middle;
+}

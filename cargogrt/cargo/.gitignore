@@ -1,0 +1,17 @@
+/util/uploads/*.pdf 
+/util/uploads/*.png 
+/util/uploads/*.xlsx  
+/util/formatos/*.pdf 
+/util/formatos/*.xlsx 
+/util/generarqr/*.png 
+/vistas/com/vehiculos/codigoQR/*.pdf
+/vistas/com/vehiculos/codigoQR/*.png
+/vistas/com/movimiento/codigoQR/*.pdf
+/vistas/com/movimiento/codigoQR/*.png
+/vistas/com/movimiento/documentos/*.pdf
+/vistas/com/organizador/codigoQR/*.pdf
+/vistas/com/organizador/codigoQR/*.png
+/nbproject/private/
+/.idea
+/.vscode 
+/util/config/*

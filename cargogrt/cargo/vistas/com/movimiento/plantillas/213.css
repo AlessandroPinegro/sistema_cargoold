@@ -1,0 +1,235 @@
+body { 
+    font-size: 9pt;
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraSerieNumero{
+    position: absolute; 
+    top: 3.7cm;
+    left: 13.5cm;
+}
+
+.cabeceraFechas{
+    position: absolute;
+    left: 1.4cm;
+    top:5.4cm;
+}
+
+.fechasCelda{
+    height: 0.6cm; 
+    vertical-align:middle;
+}
+
+.anchoFechas{
+    width: 2.5cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.espacioEntreFechas{
+    width: 2.4cm;
+    display: table-cell;
+}
+
+.cabeceraComprobantePago{
+    position: absolute;
+    top: 5.4cm;
+    left: 13cm;
+}
+
+.comprobantePagoCelda
+{
+    height: 0.6cm; 
+    vertical-align:middle;
+}
+
+.anchoComprabantePago{
+    width: 6cm;
+    text-align: center;
+    padding-right: 1cm;
+    /*display: table-cell;*/
+}
+
+.cabeceraPuntosPartida
+{
+    position: absolute;
+    top: 6.6cm;
+    left: 0cm;
+}
+
+.puntosCelda{
+    height: 0.5cm; 
+    vertical-align:middle;
+}
+
+.anchoPuntos{
+    width: 2.5cm;
+    text-align: left;
+    padding-left: 0cm;
+    display: table-cell;
+    font-size: 7pt;
+    letter-spacing: 0.02cm;
+}
+
+.espacioEntrePuntos{
+    width: 0.7cm;
+    display: table-cell;
+}
+
+.cabeceraPuntosLlegada
+{
+    position: absolute;
+    top: 6.6cm;
+    left: 10cm;
+}
+
+.cabeceraRemitente{
+    position: absolute;
+    top: 8.3cm;
+    left: 0.2cm;
+}
+
+.anchoRemitente{
+    width: 9cm;
+    text-align: left;
+    padding-left: 0cm;
+}
+
+.remitenteCelda
+{
+    height: 0.65cm; 
+    vertical-align:middle;
+}
+
+.cabeceraDestinatario{
+    position: absolute;
+    top: 8.3cm;
+    left: 10.5cm;
+}
+
+.anchoDestinatario{
+    width: 6cm;
+    text-align: left;
+    padding-left: 0cm;
+}
+
+.destinatarioCelda
+{
+    height: 0.65cm; 
+    vertical-align:middle;
+}
+
+.cabeceraUnidadTransporte{
+    position: absolute;
+    top: 14cm;
+    left: 1.4cm;
+}
+
+.anchoUnidadTransporte{
+    width: 2.5cm;
+    text-align: left;
+    padding-left: 0cm;
+    font-size: 7pt;
+    letter-spacing: 0.02cm;
+}
+
+.unidadTransporteCelda
+{
+    height: 0.4cm; 
+    vertical-align:middle;
+}
+
+.cabeceraSubContratacion{
+    position: absolute;
+    top: 14cm;
+    left: 7.7cm;
+}
+
+.anchoSubContratacion{
+    width: 5.5cm;
+    text-align: left;
+    padding-left: 0cm;
+    font-size: 7pt;
+    letter-spacing: 0.02cm;
+}
+
+.subContratacionCelda
+{
+    height: 0.4cm; 
+    vertical-align:middle;
+}
+
+.cabeceraEmpresaPaga{
+    position: absolute;
+    top: 14cm;
+    left: 14.2cm;
+}
+
+.anchoEmpresaPaga{
+    width: 3.5cm;
+    text-align: left;
+    padding-left: 0cm;
+    font-size: 7pt;
+    letter-spacing: 0.02cm;
+}
+
+.empresaPagaCelda
+{
+    height: 0.4cm; 
+    vertical-align:middle;
+}
+
+.part-detalle {
+    position: absolute;
+    top: 10.35cm;
+    left: 0cm;
+}
+
+.detalleRow{
+    height: 0.6cm; 
+    vertical-align:middle;
+}
+
+.detalleRowCodigo
+{
+    padding-right: 0.4cm;
+    width: 1.6cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0cm;
+    width:11.5cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowUM{
+    padding-left: 0.1cm;
+    width: 1.55cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowCantidad{
+    padding-right: 0.2cm;
+    width: 1.55cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowPesoTotal{
+    padding-right: 0cm;
+    width: 1.9cm;
+    text-align: right;
+    display: table-cell;
+}

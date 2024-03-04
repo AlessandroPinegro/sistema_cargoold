@@ -1,0 +1,53 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;  
+    font: arial;
+    font-size: 11px;
+}
+
+table{
+    font: arial;
+    font-size: 11px;
+    width: 100%;
+}
+
+#precioUnitario, #subTotal, #cantidad
+{
+    text-align: right;
+    padding-right: 5px;
+}
+
+#descripcion
+{
+    padding-left: 5px;
+}
+
+#titulo{
+    width: 30%;
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#pieTotal
+{
+    width: 20%;
+    float: right;
+    border: 1px solid black;
+    height: 20px;
+}
+
+#total
+{
+    float: left;
+    width: 15%;
+    padding-left: 10px;
+}
+
+#totalResultado
+{
+    float: left;
+    width: 80%;
+    text-align: right;
+    padding-right: 5px;
+}

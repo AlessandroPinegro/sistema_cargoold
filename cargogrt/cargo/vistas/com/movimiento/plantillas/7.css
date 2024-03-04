@@ -1,0 +1,129 @@
+#dataImprimir { 
+    font-size: 9pt;
+    /*font-family: 'Arial, Helvetica, sans-serif';*/
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    left: 14.5cm;
+    top: 4.7cm;
+}
+
+.cabeceraPersona{
+    position: absolute;
+    left: 2.5cm;
+    top:6.3cm;
+}
+
+.cabeceraPersonaCelda{
+    height: 0.7cm;
+    width: 13cm;
+}
+
+.cabeceraPersona2{
+    position: absolute;
+    left: 15.5cm;
+    top:7cm;
+}
+
+.cabeceraPersona3{
+    position: absolute;
+    left: 8.5cm;
+    top:7.9cm;
+}
+
+.cabeceraGuiaRemitente{
+    width: 3.2cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraFecha{
+    left: 13.5cm;
+    position: absolute;
+    top:7.8cm;
+}
+
+.part-detalle {
+    left: 0.9cm;
+    position: absolute;
+    top:9.5cm;
+}
+.detalleRow{
+    height: 0.6cm;
+}
+
+.detalleRowCantidad{
+    padding-left: 1cm;
+    width: 1.30cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowUnidad{
+    padding-left: 0.3cm;
+    width: 1.2cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.3cm;
+    width: 11.1cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPU{
+    padding-right: 0.4cm;
+    width: 2.4cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowImporte{
+    padding-right: 0.5cm;
+    width: 2.75cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+.pieTotalEnLetra{
+    left: 1.8cm;
+    position: absolute;
+    top:31.25cm;
+}
+
+.cabeceraFechaPie{
+    position: absolute;
+    left: 6.8cm;
+    top:32.90cm;
+}
+
+.pieImportes
+{
+    left: 16.4cm;
+    position: absolute;
+    top: 31.20cm;
+}
+
+.pieImportesImporte
+{
+    height: 0.9cm;
+    text-align: right;
+    width: 2.6cm;
+}
+    
+.pieIGV{
+    left: 15.85cm;
+    position: absolute;
+    top:32.15cm;
+}

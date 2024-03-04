@@ -1,0 +1,209 @@
+body { 
+    font-size: 8.5pt;
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraSerieNumero{
+    position: absolute; 
+    top: 3.6cm;
+    left: 14.6cm;
+}
+
+.cabeceraMotivoTraslado{
+    position: absolute;
+    left: 10.4cm;
+    top:1.8cm;
+}
+
+.motivoTrasladoCelda{
+    height: 0.5cm;
+    vertical-align:middle;
+}
+
+.cabeceraFechas{
+    position: absolute;
+    left: 2cm;
+    top:6.55cm;
+}
+
+.fechasCelda{
+    height: 0.7cm; 
+    vertical-align:middle;
+}
+
+.anchoFechas{
+    width: 0.85cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.espacioEntreFechas{
+    width: 2cm;
+    display: table-cell;
+}
+
+.cabeceraDestinatario{
+    position: absolute;
+    top: 8.1cm;
+    left: 1.5cm;
+}
+
+.anchoDestinatario{
+    width: 7.8cm;
+    text-align: left;
+    padding-left: 0.3cm;
+}
+
+.destinatarioCelda
+{
+    height: 0.4cm; 
+    vertical-align:middle;
+}
+
+.cabeceraDestinatarioDocumento{
+    position: absolute;
+    top: 8.1cm;
+    left: 6.4cm;
+}
+
+.anchoDestinatarioDocumento{
+    width: 2.8cm;
+    text-align: left;
+    padding-left: 0.3cm;
+}
+
+.cabeceraEmpresaTranporte
+{
+    position: absolute;
+    top: 6.2cm;
+    left: 11.7cm;
+}
+
+.empresaTranporteCelda
+{
+    height: 0.45cm; 
+    vertical-align:middle;
+}
+
+.anchoEmpresaTranporte{
+    width: 8cm;
+    text-align: left;
+    /*padding-left: 0.3cm;*/
+}
+
+.cabeceraTabla{
+    position: absolute;
+    left: 9.8cm;
+    top: 9.3cm;
+}
+.cabeceraTablaCelda{
+    height: 0.7cm;
+}
+
+.cabeceraOrdenCompra{
+    width: 2.6cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraNumPedido{
+    width: 2.75cm;
+    text-align: center;
+    display: table-cell;
+    padding-right: 0.3cm;
+}
+
+.cabeceraNumFactura{
+    padding-right: 0.2cm;
+    width: 1.95cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraVendedor{
+    padding-right: 0.2cm;
+    width: 2.3cm;
+    text-align: center;
+    display: table-cell;
+    font-size: 5pt;
+    letter-spacing: 0.01cm;
+}
+
+.cabeceraPuntos
+{
+    position: absolute;
+    top: 10.3cm;
+    left: 0.3cm;
+}
+
+.puntosCelda{
+    height: 0.7cm; 
+    vertical-align:middle;
+}
+
+.anchoPuntos{
+    width: 9.8cm;
+    text-align: left;
+    padding-left: 0.4cm;
+    display: table-cell;
+}
+
+.espacioEntrePuntos{
+    width: 0.4cm;
+    display: table-cell;
+}
+
+.part-detalle {
+    position: absolute;
+    top: 12.35cm;
+    left: 0cm;
+}
+
+.detalleRow{
+    height: 0.5cm; 
+    vertical-align:middle;
+}
+
+.detalleRowCodigo
+{
+    width: 1.8cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.1cm;
+    width: 11.3cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowCantidad{
+    padding-left: 0.3cm;
+    width: 1.45cm;
+    text-align: right;
+    display: table-cell;
+}
+
+
+.detalleRowUM{
+    padding-left: 0.7cm;
+    width: 1cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowPesoTotal{
+    padding-right: 0cm;
+    width: 1.5cm;
+    text-align: right;
+    display: table-cell;
+}

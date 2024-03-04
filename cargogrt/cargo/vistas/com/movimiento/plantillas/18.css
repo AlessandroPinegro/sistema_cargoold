@@ -1,0 +1,83 @@
+body { 
+    font-size: 5pt;
+    font-family: 'Arial';
+    text-transform: uppercase;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+.caja-letra{
+    width: 2cm;
+}
+.standard-letra{
+    position: absolute;
+    height: 4mm;
+}
+#numero-letra{
+    top: 2.4cm;
+    left: 4cm;
+}
+#referencia-letra{
+    top: 2.2cm;
+    left: 6.6cm;
+    word-wrap: break-word;
+}
+#fecha-letra{
+    top: 2.4cm;
+    left: 9.2cm;
+}
+#lugar-letra{
+    top: 2.4cm;
+    left: 12cm;
+}
+#fechaven-letra{
+    top: 2.4cm;
+    left: 14.7cm;
+}
+#importe-letra{
+    top: 2.4cm;
+    left: 17.5cm;
+    width: 2.5cm;
+}
+#orden-letra{
+    top: 3.1cm;
+    left: 13.3cm;
+    width: 7cm;
+}
+#importe-letras-letra{
+    top: 3.9cm;
+    left: 4cm;
+    width: 15.5cm;
+}
+#aceptante-letra{
+    top: 5.2cm;
+    left: 5.4cm;
+    width: 6cm;
+    word-wrap: break-word;
+}
+#domicilio-letra{
+    top: 6.1cm;
+    left: 5.1cm;
+    width: 6.2cm;
+    word-wrap: break-word;
+}
+#localidad-letra{
+    top: 6.5cm;
+    left: 8.1cm;
+    width: 3cm;
+}
+#ruc-letra{
+    top: 6.9cm;
+    left: 5.3cm;
+    width: 1.4cm;
+}
+#telefono-letra{
+    top: 6.9cm;
+    left: 8.4cm;
+    width: 2.5cm;
+}
+#doi-letra{
+    top: 9.3cm;
+    left: 12.5cm;
+    width: 3cm;
+}

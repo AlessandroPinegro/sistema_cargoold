@@ -1,0 +1,123 @@
+#dataImprimir { 
+    font-size: 8pt;
+    /*font-family: 'Arial, Helvetica, sans-serif';*/
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    left: 12.5cm;
+    top: 5cm;
+}
+
+.cabeceraPersona{
+    position: absolute;
+    left: 2.1cm;
+    top:5.9cm;
+}
+
+.cabeceraPersonaCelda{
+    height: 0.7cm;
+}
+
+.cabeceraPersona3{
+    position: absolute;
+    left: 8cm;
+    top:7.3cm;
+}
+
+.cabeceraGuiaRemitente{
+    width: 3.2cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraFecha{
+    left: 12.6cm;
+    position: absolute;
+    top:7.3cm;
+}
+
+.part-detalle {
+    left: 0.1cm;
+    position: absolute;
+    top:8.8cm;
+}
+.detalleRow{
+    height: 0.6cm;
+}
+
+.detalleRowCantidad{
+    padding-left: 0.8cm;
+    width: 1.35cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowUnidad{
+    padding-left: 0.9cm;
+    width: 1.15cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.7cm;
+    width: 10.25cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPU{
+    padding-right: 0.4cm;
+    width: 2.4cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowImporte{
+    padding-right: 0.5cm;
+    width: 2.65cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+.pieTotalEnLetra{
+    left: 1.8cm;
+    position: absolute;
+    top:29.35cm;
+}
+
+.cabeceraFechaPie{
+    position: absolute;
+    left: 6.4cm;
+    top:30.85cm;
+}
+
+.pieImportes
+{
+    left: 15.2cm;
+    position: absolute;
+    top: 29.4cm;
+}
+
+
+.pieImportesImporte
+{
+    height: 0.7cm;
+    text-align: right;
+    width: 2.6cm;
+}
+
+.pieIGV{
+    left: 14.4cm;
+    position: absolute;
+    top:30.05cm;
+}

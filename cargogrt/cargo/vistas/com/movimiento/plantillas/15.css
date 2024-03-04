@@ -1,0 +1,105 @@
+body { 
+    font-size: 7pt;
+    font-family: 'Arial';
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    left: 13.88cm;
+    top: 1.43cm;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraFecha{
+    position: absolute;
+    top: 1.57cm;
+    left: 3.33cm;
+}
+
+.cabeceraPersona{
+    position: absolute;
+    top: 1.90cm;
+    left: 3.04cm;
+}
+
+.cabeceraPersonaCelda{
+    height: 0.34cm;
+}
+
+.part-detalle {
+    position: absolute;
+    top: 3.47cm;
+    left: 1.47cm;
+}
+
+.detalleRow{
+    height: 0.31cm;
+}
+
+.detalleRowCantidad{
+    padding-right: 0.24cm;
+    width: 1.52cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.19cm;
+    width: 11.41cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPU{
+    padding-right: 0.19cm;
+    width: 2.19cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowImporte{
+    padding-right: 0.19cm;
+    width: 1.95cm;
+    text-align: right;
+    display: table-cell;
+}
+
+
+.pieTotalEnLetra{
+    position: absolute;
+    top: 6.33cm;
+    left: 2.95cm;
+}
+
+.pieFecha{
+    position: absolute;
+    top: 7.14cm;
+    left: 5.56cm;
+}
+
+.pieIGV{
+    position: absolute;
+    top: 7.05cm;
+    left: 15.65cm;
+}
+
+.pieImporte
+{
+    position: absolute;
+    top: 6.74cm;
+    left: 16.67cm;
+}
+
+.importeCelda
+{
+    height: 0.34cm;
+    padding-right: 0.19cm;
+    width: 1.76cm;
+    text-align: right;
+}

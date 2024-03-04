@@ -1,0 +1,210 @@
+body { 
+    font-size: 5pt;
+    font-family: 'Arial';
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.cabeceraSerieNumero{
+    position: absolute; 
+    top: 2.357cm;
+    left: 13.8cm;
+}
+
+.cabeceraFechas{
+    position: absolute;
+    left: 1.4cm;
+    top:2.47cm;
+}
+
+.fechasCelda{
+    height: 0.253cm; 
+    vertical-align:middle;
+}
+
+.anchoFechas{
+    width: 1.6cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.espacioEntreFechas{
+    width: 1cm;
+    display: table-cell;
+}
+
+.cabeceraPuntos
+{
+    position: absolute;
+    top: 3.087cm;
+    left: 1.4cm;
+}
+
+.puntosCelda{
+    height: 0.309cm; 
+    vertical-align:middle;
+}
+
+.anchoPuntos{
+    width: 9.6cm;
+    text-align: left;
+    padding-left: 0.4cm;
+    display: table-cell;
+}
+
+.espacioEntrePuntos{
+    width: 0.3cm;
+    display: table-cell;
+}
+
+
+.cabeceraDestinatario{
+    position: absolute;
+    top: 3.704cm;
+    left: 13cm;
+}
+
+.anchoDestinatario{
+    width: 6.9cm;
+    text-align: left;
+    padding-left: 0.3cm;
+}
+
+.destinatarioCelda
+{
+    height: 0.309cm; 
+    vertical-align:middle;
+}
+
+.cabeceraComprobantePago{
+    position: absolute;
+    top: 3.648cm;
+    left: 1.4cm;
+}
+
+.comprobantePagoCelda
+{
+    height: 0.449cm; 
+    vertical-align:middle;
+}
+
+.anchoComprabantePago{
+    width: 6.6cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.anchoCostoMinimo{
+    width: 2.1cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.fechaCelda
+{
+    height: 0.157cm; 
+    vertical-align:middle;
+}
+
+.part-detalle {
+    position: absolute;
+    top: 5.5cm;
+    left: 1.4cm;
+}
+
+.detalleRow{
+    height: 0.269cm; 
+    vertical-align:middle;
+}
+
+.detalleRowCodigo
+{
+    width: 1.30cm;
+    text-align: center;
+    display: table-cell;
+    font-size: 4pt;
+    letter-spacing: 0.01cm;
+}
+
+.detalleRowCantidad{
+    padding-right: 0.2cm;
+    width: 1.4cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowUM{
+    width: 1.45cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.detalleRowDescripcion{
+    padding-left: 0.2cm;
+    width: 10.60cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPrecioUnitario{
+    padding-right: 0.6cm;
+    width: 1.6cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowPrecioTotal{
+    padding-right: 0.6cm;
+    width: 1.6cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowPesoTotal{
+    padding-right: 0.4cm;
+    width: 1.55cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.cabeceraUnidadTransporte{
+    position: absolute;
+    top: 4.546cm;
+    left: 5.5cm;
+}
+
+.anchoUnidadTransporte{
+    width: 5.5cm;
+    text-align: left;
+    padding-left: 0.3cm;
+}
+
+.unidadTransporteCelda
+{
+    height: 0.225cm; 
+    vertical-align:middle;
+}
+
+.cabeceraEmpresaTranporte
+{
+    position: absolute;
+    top: 4.715cm;
+    left: 13.4cm;
+}
+
+.empresaTranporteCelda
+{
+    height: 0.225cm; 
+    vertical-align:middle;
+}
+
+.anchoEmpresaTranporte{
+    width: 6.5cm;
+    text-align: left;
+    padding-left: 0.3cm;
+}

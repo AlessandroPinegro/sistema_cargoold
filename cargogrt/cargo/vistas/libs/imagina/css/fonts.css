@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'AvantGarde-Demi';
+  src: url('../fonts/AvantGarde-Demi.eot');
+  src: local('AvantGarde-Demi'),
+  url('../fonts/AvantGarde-Demi.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvantGarde-Demi.woff') format('woff'),
+  url('../fonts/AvantGarde-Demi.ttf') format('truetype'),
+  url('../fonts/AvantGarde-Demi.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd-Demi';
+  src: url('../fonts/ITCAvantGardeStd-Demi.eot');
+  src: local('ITCAvantGardeStd-Demi'),
+  url('../fonts/ITCAvantGardeStd-Demi.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ITCAvantGardeStd-Demi.woff') format('woff'),
+  url('../fonts/ITCAvantGardeStd-Demi.ttf') format('truetype'),
+  url('../fonts/ITCAvantGardeStd-Demi.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Lemonmilk-bold';
+  src: url('../fonts/LEMONMILK-Bold.eot');
+  src: local('LEMONMILK-Bold'),
+  url('../fonts/LEMONMILK-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@lemonmilkBold: 'Lemonmilk-bold',"Open Sans", Helvetica, Arial, sans-serif;
+
+@font-face {
+  font-family: 'Lemonmilk-medium';
+  src: url('../fonts/LEMONMILK-Medium.eot');
+  src: local('LEMONMILK-Medium'),
+  url('../fonts/LEMONMILK-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@lemonmilkMedium: 'Lemonmilk-medium',"Open Sans", Helvetica, Arial, sans-serif;
+
+
+@font-face {
+  font-family: 'Fresno-W00';
+  src: url('../fonts/Fresno-W00-regular.eot');
+  src: local('Fresno-W00-regular'),
+  url('../fonts/Fresno-W00-regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Fresno-W00-regular.woff') format('woff'),
+  url('../fonts/Fresno-W00-regular.woff2') format('woff2'),
+  url('../fonts/Fresno-W00-regular.ttf') format('truetype'),
+  url('../fonts/Fresno-W00-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("../fonts/BebasNeue.eot");
+  src: local('BebasNeue'),
+  url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BebasNeue.otf') format("opentype"),
+  url('../fonts/BebasNeue.woff') format('woff'),
+  url('../fonts/BebasNeue.ttf') format('truetype'),
+  url('../fonts/BebasNeue.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Marathon2022Eq';
+  src: url("../fonts/Marathon2022EqRegular.eot");
+  src: local('Marathon2022Eq'),
+  url('../fonts/Marathon2022Eq.otf') format("opentype"),
+  url('../fonts/Marathon2022EqRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Marathon2022EqRegular.woff') format('woff'),
+  url('../fonts/Marathon2022EqRegular.ttf') format('truetype'),
+  url('../fonts/Marathon2022EqRegular.svg#Marathon2022EqRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'PUMAFUTBOL-Display';
+  src: url("../fonts/PUMAFUTBOL-Display.eot");
+  src: local('PUMAFUTBOL-Display'),
+  url('../fonts/PUMAFUTBOL-Display.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PUMAFUTBOL-Display.otf') format("opentype"),
+  url('../fonts/PUMAFUTBOL-Display.woff') format('woff'),
+  url('../fonts/PUMAFUTBOL-Display.ttf') format('truetype'),
+  url('../fonts/PUMAFUTBOL-Display.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'IDV2022MARATHON';
+  src: url('../fonts/IDV2022MARATHONRegular.eot');
+  src: url('../fonts/IDV2022MARATHONRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/IDV2022MARATHONRegular.woff') format('woff'),
+  url('../fonts/IDV2022MARATHONRegular.ttf') format('truetype'),
+  url('../fonts/IDV2022MARATHONRegular.svg#IDV2022MARATHONRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BSC22MARATHONV2';
+  src: url('../fonts/BSC22MARATHONV2Regular.eot');
+  src: url('../fonts/BSC22MARATHONV2Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BSC22MARATHONV2Regular.woff') format('woff'),
+  url('../fonts/BSC22MARATHONV2Regular.ttf') format('truetype'),
+  url('../fonts/BSC22MARATHONV2Regular.svg#BSC22MARATHONV2Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BSC2022MARATHON';
+  src: url('../fonts/BSC2022MARATHONRegular.eot');
+  src: url('../fonts/BSC2022MARATHONRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BSC2022MARATHONRegular.woff') format('woff'),
+  url('../fonts/BSC2022MARATHONRegular.ttf') format('truetype'),
+  url('../fonts/BSC2022MARATHONRegular.svg#BSC2022MARATHONRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'FEF2020MARATHON';
+  src: url('../fonts/FEF2020MARATHONRegular.eot');
+  src: url('../fonts/FEF2020MARATHONRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FEF2020MARATHONRegular.woff') format('woff'),
+  url('../fonts/FEF2020MARATHONRegular.ttf') format('truetype'),
+  url('../fonts/FEF2020MARATHONRegular.svg#FEF2020MARATHONRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'FPFMarathon2020';
+  src: url('../fonts/FPFMarathon2020Regular.eot');
+  src: url('../fonts/FPFMarathon2020Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FPFMarathon2020.otf') format("opentype"),
+  url('../fonts/FPFMarathon2020Regular.woff') format('woff'),
+  url('../fonts/FPFMarathon2020Regular.ttf') format('truetype'),
+  url('../fonts/FPFMarathon2020Regular.svg#FPFMarathon2020Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'StallmanRegular50';
+  src: url('../fonts/StallmanRegular50.eot');
+  src: url('../fonts/StallmanRegular50.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/StallmanRegular50.otf') format("opentype"),
+  url('../fonts/StallmanRegular50.woff') format('woff'),
+  url('../fonts/StallmanRegular50.ttf') format('truetype'),
+  url('../fonts/StallmanRegular50.svg#Stallman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'MARATHONMUNDIAL';
+  src: url('../fonts/MARATHONMUNDIALRegular.eot');
+  src: url('../fonts/MARATHONMUNDIALRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MARATHONMUNDIAL.otf') format("opentype"),
+  url('../fonts/MARATHONMUNDIALRegular.woff') format('woff'),
+  url('../fonts/MARATHONMUNDIALRegular.ttf') format('truetype'),
+  url('../fonts/MARATHONMUNDIALRegular.svg#MARATHONMUNDIALRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}

@@ -1,0 +1,139 @@
+#dataImprimir { 
+    font-size: 8pt;
+    /*font-family: 'Arial, Helvetica, sans-serif';*/
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    left: 12.8cm;
+    top: 3.9cm;
+}
+
+.cabeceraPersona{
+    position: absolute;
+    left: 1.4cm;
+    top:5.6cm;
+}
+
+.personaCelda{
+    height: 0.48cm;
+    vertical-align:middle;
+}
+
+.anchoPersona{
+    width: 9.5cm;
+    text-align: left;
+}
+
+.anchoDocumento{
+    width: 5.5cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.anchoCodigo{
+    width: 3.8cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.cabeceraPersona2{
+    position: absolute;
+    left: 12.8cm;
+    top: 5.8cm;
+}
+
+.personaCelda2{
+    height: 0.48cm;
+    vertical-align:middle;
+}
+
+.anchoPersona2{
+    width: 5cm;
+    text-align: left;
+}
+
+.part-detalle {
+    left: -1.2cm;
+    position: absolute;
+    top: 8.5cm;
+}
+.detalleRow{
+    height: 0.58cm;
+    vertical-align:middle;
+}
+.detalleRowItem{
+    padding-right: 0cm;
+    width: 0.85cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowCantidad{
+    padding-right: 0cm;
+    width: 1cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowUnidad{
+    padding-left: 0.3cm;
+    width: 0.8cm;
+    text-align: center;
+    display: table-cell;
+}
+.detalleRowCodigo{
+    padding-right: 0cm;
+    width: 1.2cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowDescripcion{
+    padding-left: 0.6cm;
+    width: 9.2cm;
+    text-align: left;
+    display: table-cell;
+}
+.detalleRowDescuento{
+    padding-left: 0cm;
+    width: 1.1cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.detalleRowPU{
+    padding-left: 0.2cm;
+    width: 2.1cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowImporte{
+    padding-left: 0cm;
+    width: 2.3cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.pieImportes
+{
+    left: 11.1cm;
+    position: absolute;
+    top: 16.15cm;
+}
+
+.pieImportesImporte
+{
+    /*padding-right: 0cm;*/
+    height: 0.6cm;
+    vertical-align:middle;
+    text-align: right;
+/*    width: 2.7cm;*/
+    display: table-cell;
+}

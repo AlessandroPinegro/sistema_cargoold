@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="617" pageHeight="445" columnWidth="617" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="0de428af-2099-4992-a27e-69167a39db48">
+	<property name="ireport.zoom" value="1.210000000000001"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="serie_numero" class="java.lang.String"/>
+	<parameter name="nombre" class="java.lang.String"/>
+	<parameter name="total" class="java.lang.Double"/>
+	<parameter name="vin_movimiento_id" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[2322]]></defaultValueExpression>
+	</parameter>
+	<parameter name="documento" class="java.lang.String"/>
+	<parameter name="total_letras" class="java.lang.String"/>
+	<parameter name="fecha_emision" class="java.lang.String"/>
+	<parameter name="sub_total" class="java.lang.String"/>
+	<parameter name="igv" class="java.lang.String"/>
+	<parameter name="igv_porcentaje" class="java.lang.String"/>
+	<parameter name="fecha_emision_doc_rel" class="java.lang.String"/>
+	<parameter name="tipo_doc_rel" class="java.lang.String"/>
+	<parameter name="serie_doc_rel" class="java.lang.String"/>
+	<parameter name="moneda_simbolo" class="java.lang.String"/>
+	<parameter name="mot_anulacion" class="java.lang.String"/>
+	<parameter name="mot_bonificacion" class="java.lang.String"/>
+	<parameter name="mot_descuento" class="java.lang.String"/>
+	<parameter name="mot_devolucion" class="java.lang.String"/>
+	<parameter name="mot_otros" class="java.lang.String"/>
+	<parameter name="serie_rel" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[call sp_movimiento_bien_obtenerXMovimiento($P{vin_movimiento_id})]]>
+	</queryString>
+	<field name="bien_descripcion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="valor_monetario" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="unidad_medida_descripcion" class="java.lang.String"/>
+	<field name="organizador_descripcion" class="java.lang.String"/>
+	<field name="simbolo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="sub_total" class="java.math.BigDecimal"/>
+	<field name="bien_codigo" class="java.lang.String"/>
+	<field name="cantidad" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="234">
+			<textField>
+				<reportElement x="84" y="145" width="254" height="17" uuid="4062f8be-3e60-461c-a043-5d5ad98df1f9"/>
+				<textFieldExpression><![CDATA[$P{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="164" width="145" height="17" uuid="9b9859a3-a5c9-480e-81ba-dcc0d21c2a4c"/>
+				<textFieldExpression><![CDATA[$P{documento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="183" width="145" height="17" uuid="f390d0af-f2fd-42e0-a3aa-a82ba0fcfac5"/>
+				<textFieldExpression><![CDATA[$P{fecha_emision}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="301" y="203" width="82" height="14" uuid="e53bff7b-001d-439e-861a-92d7bdd5d9d5"/>
+				<textFieldExpression><![CDATA[$P{tipo_doc_rel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="203" width="57" height="14" uuid="4068c14f-3e4c-4eba-8ea6-c3b99ae0b6b2"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{serie_doc_rel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="492" y="203" width="78" height="14" uuid="e4eea48b-6115-43ec-a07c-0df59eaa8aaf"/>
+				<textFieldExpression><![CDATA[$P{fecha_emision_doc_rel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="87" width="100" height="14" uuid="c7ec2d03-e77f-49a6-8117-b995bbb459c9"/>
+				<textFieldExpression><![CDATA[$P{serie_numero}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="14" splitType="Stretch">
+			<textField>
+				<reportElement x="85" y="0" width="41" height="14" uuid="f3d42285-e71c-40cd-8e40-43c40f8ac9dd"/>
+				<textFieldExpression><![CDATA[$F{simbolo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="137" y="0" width="266" height="14" uuid="b8d27ef6-d4b0-4f80-ba68-87e1d8df39e1"/>
+				<textFieldExpression><![CDATA[$F{bien_descripcion}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="413" y="0" width="67" height="14" uuid="f38dca0c-b616-4416-a2a3-ebca75efb02c"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{valor_monetario}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="488" y="0" width="82" height="14" uuid="54e5b14b-cd0c-4090-8e19-8d54391ec8e9"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{sub_total}]]></textFieldExpression>
+			</textField>
+			<textField pattern="###0">
+				<reportElement x="33" y="0" width="39" height="14" uuid="fe6a87c5-4ebf-4d9d-b7f3-7613e3c8dae6"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="87">
+			<textField pattern="#,##0.00">
+				<reportElement x="487" y="1" width="83" height="15" uuid="373f31b3-93e5-42d5-81a5-4dcd28cba7c6"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$P{sub_total}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="487" y="17" width="83" height="15" uuid="0d0c48e7-92bf-4723-8215-ac51fe4f7571"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$P{igv}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="487" y="33" width="83" height="15" uuid="a7a4d37d-7996-42fd-b283-922cab82d9c4"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$P{total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="18" width="17" height="15" uuid="d8081ff6-c483-4ffa-90ac-d028925c9345"/>
+				<textFieldExpression><![CDATA[$P{igv_porcentaje}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="34" width="17" height="15" uuid="ff51b303-13b0-45c7-92f4-521c68ff2108"/>
+				<textFieldExpression><![CDATA[$P{moneda_simbolo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="39" width="13" height="14" uuid="72db7424-da11-4e56-800a-5f00db5794c4"/>
+				<textFieldExpression><![CDATA[$P{mot_anulacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="121" y="39" width="14" height="14" uuid="c385c7ea-b6a9-491c-b028-e18965f211e1"/>
+				<textFieldExpression><![CDATA[$P{mot_bonificacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="229" y="39" width="13" height="14" uuid="53745b17-3443-4aa3-81ed-82184555ba84"/>
+				<textFieldExpression><![CDATA[$P{mot_descuento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="325" y="39" width="13" height="14" uuid="4b9186a3-18ae-4509-92a8-872f8c7674c9"/>
+				<textFieldExpression><![CDATA[$P{mot_devolucion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="59" width="13" height="14" uuid="b44a3abe-8742-450d-87db-90738657f706"/>
+				<textFieldExpression><![CDATA[$P{mot_otros}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="1" width="447" height="15" uuid="f796d2e3-e18e-4223-bb01-f08598d8adef"/>
+				<textFieldExpression><![CDATA[$P{total_letras}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+</jasperReport>

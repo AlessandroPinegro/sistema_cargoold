@@ -1,0 +1,221 @@
+#dataImprimir { 
+    font-size: 8pt;
+    /*font-family: 'Arial, Helvetica, sans-serif';*/
+    /*font-family: 'Arial';*/
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    left: 13.9cm;
+    top: 3.2cm;
+}
+
+.cabeceraPersona{
+    position: absolute;
+    left: 2.7cm;
+    top:3.7cm;
+}
+
+.cabeceraPersonaCelda{
+    height: 0.49cm;
+}
+
+.cabeceraPersona2{
+    position: absolute;
+    left: 10.5cm;
+    top:3.7cm;
+}
+
+.cabeceraPersona3{
+    position: absolute;
+    left: 14.9cm;
+    top:7.6cm;
+}
+
+.cabeceraGuiaRemitente{
+    width: 3.1cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.part-detalle {
+    left: 0cm;
+    position: absolute;
+    top:9cm;
+}
+.detalleRow{
+    height: 0.5cm;
+}
+.detalleRowCodigo{
+    padding-right: 0cm;
+    width: 2.2cm;
+    text-align: center;
+    display: table-cell;
+}
+.detalleRowCantidad{
+    padding-right: 0.2cm;
+    width: 1.35cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowUnidad{
+    padding-left: 0.5cm;
+    width: 1.2cm;
+    text-align: left;
+    display: table-cell;
+}
+.detalleRowDescripcion{
+    padding-left: 0.4cm;
+    width: 10cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPU{
+    padding-right: 1cm;
+    width: 2.5cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowDescuento{
+    width: 1cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowImporte{
+    padding-right: 1cm;
+    width: 2.45cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.cabeceraTabla{
+    position: absolute;
+    left: 0cm;
+    top: 23cm;
+}
+.cabeceraTablaCelda{
+    height: 0.8cm;
+}
+
+.cabeceraBruto{
+    width: 2.6cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraDescuentos{
+    width: 2.4cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraValorVenta{
+    width: 2.55cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraISC{
+    width: 2.3cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraEmbalaje{
+    width: 2.3cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraFlete{
+    width: 2.45cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraIGV{
+    padding-right: 0.3cm;
+    width: 2.45cm;
+    text-align: center;
+    display: table-cell;
+}
+.cabeceraTotal{
+    padding-right: 0.5cm;
+    width: 3.25cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraMercaderia{
+    position: absolute;
+    left: 10cm;
+    top: 25.3cm;
+}
+
+.cabeceraMercaderiaCelda{
+    height: 0.6cm;
+}
+
+.cabeceraMercaderia2{
+    position: absolute;
+    left: 9.40cm;
+    top: 26.6cm;
+}
+.cabeceraMercaderiaCelda2{
+    height: 0.8cm;
+}
+
+.cabeceraTotalPiezas{
+    width: 2.7cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraTotalVolumen{
+    width: 2.4cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraTotalPeso{
+    width: 2.8cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.cabeceraVB{
+    width: 2.45cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+.pieTotalEnLetra{
+    left: 7.5cm;
+    position: absolute;
+    top:21.7cm;
+}
+
+.cabeceraFecha{
+    left: 8.1cm;
+    position: absolute;
+    top:28cm;
+}
+
+.cabeceraMotivoTraslado{
+    position: absolute;
+    left: 14.7cm;
+    top:5.9cm;
+}
+
+.motivoTrasladoCelda{
+    height: 0.43cm;
+    vertical-align:middle;
+}
+
+.cabeceraMotivoTraslado2{
+    position: absolute;
+    left: 18.8cm;
+    top:5.9cm;
+}

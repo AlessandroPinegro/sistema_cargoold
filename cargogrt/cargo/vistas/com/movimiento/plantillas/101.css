@@ -1,0 +1,138 @@
+#dataImprimir { 
+    font-size: 8pt;
+    /*font-family: 'Arial, Helvetica, sans-serif';*/
+    /*font-family: 'Arial';*/    
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    letter-spacing: 0.02cm;
+    margin: 0px;
+    padding:0px;
+}
+
+.cabeceraSerieNumero{
+    position: absolute;
+    left: 12.5cm;
+    top: 4.1cm;
+}
+
+.cabeceraPersona{
+    position: absolute;
+    left: 1.3cm;
+    top:5.1cm;
+}
+
+.personaCelda{
+    height: 0.7cm;
+    vertical-align:middle;
+}
+
+.anchoPersona{
+    width: 9.4cm;
+    text-align: left;
+}
+
+.anchoFechaEmision{
+    width: 8.5cm;
+    padding-left: 1cm;
+    text-align: left;
+}
+
+.cabeceraModifica{
+    position: absolute;
+    left: 12.4cm;
+    top: 6cm;
+}
+
+.modificaCelda{
+    height: 0.7cm;
+    vertical-align:middle;
+}
+
+.anchoNumeroModifica{
+    width: 2.6cm;
+    text-align: center;
+    display: table-cell;
+}
+
+.anchoFechaModifica{
+    width: 2.9cm;
+    text-align: center;
+    padding-left: 2.7cm;
+}
+
+.part-detalle {
+    left: 0cm;
+    position: absolute;
+    top:8.2cm;
+}
+.detalleRow{
+    height: 0.55cm;
+    vertical-align:middle;
+}
+.detalleRowCantidad{
+    padding-right: 1.0cm;
+    width: 1.6cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowCodigo{
+    padding-right: 0.5cm;
+    width: 1.7cm;
+    text-align: center;
+    display: table-cell;
+}
+.detalleRowDescripcion{
+    padding-right: 0.5cm;
+    width: 9.4cm;
+    text-align: left;
+    display: table-cell;
+}
+
+.detalleRowPU{
+    padding-right: 0.7cm;
+    width: 2.3cm;
+    text-align: right;
+    display: table-cell;
+}
+.detalleRowImporte{
+    padding-right: 0.8cm;
+    width: 3.1cm;
+    text-align: right;
+    display: table-cell;
+}
+
+.inlineItec {
+    display: table-cell;
+}
+
+.pieImportes
+{
+    left: 14.3cm;
+    position: absolute;
+    top: 12.5cm;
+}
+
+.pieImportesImporte
+{
+    padding-right: 0cm;
+    height: 0.63cm;
+    vertical-align:middle;
+    text-align: right;
+    width: 3cm;
+}
+
+.cabeceraMotivo{
+    position: absolute;
+    left: 0cm;
+    top:12.4cm;
+}
+
+.motivoCelda{
+    height: 0.3cm;
+    vertical-align:middle;
+}
+
+.anchoMotivo{
+    /*width: 1.9cm;*/
+    text-align: left;
+    display: table-cell;
+}   
