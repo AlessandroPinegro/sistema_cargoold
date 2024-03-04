@@ -2,7 +2,7 @@ var boton = {
     enviarClase: $('#env i').attr('class'),
     accion: ''
 };
-console.log("llego");
+console.log("llego test");
 var validacion = {
     organizadorExistencia: true
 };
